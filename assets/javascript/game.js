@@ -41,9 +41,10 @@ var gameStart = function startGame() {
   hangDiv.setAttribute("id", "blanks");
   console.log(hangDiv.innerHTML = splitWordArray[i])
   console.log(document.body.appendChild(hangDiv));
-  var hide = document.getElementById('blanks[i]'); //needs attention
-  splitWordArray[i].style.display = "none" //needs attention
-  };
+}
+  // var hide = document.getElementById('blanks[i]'); //needs attention
+  // splitWordArray[i].style.display = "none" //needs attention
+  // };
 
 
 
